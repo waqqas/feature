@@ -1,0 +1,10 @@
+{
+    "name": "bpmnlint",
+    "id": "bpmnlint",
+    "version": "1.0.0",
+    "description": "BPMN Linter",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
