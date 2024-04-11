@@ -1,15 +1,13 @@
 
-# My Favorite Color (color)
+# bpmnlint (bpmnlint)
 
-A feature to remind you of your favorite color
+BPMN Linter
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/bpmnlint:1": {
-        "version": "latest"
-    }
+    "ghcr.io/waqqas/feature/bpmnlint:0": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of bpmnlint to install. | string | latest |
+| version | Version of bpmnlint to install | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/Waqqas Jabbar/github.com/waqqas/feature/blob/main/src/bpmnlint/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
