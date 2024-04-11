@@ -1,12 +1,19 @@
 #!/bin/bash
 
-# This test file will be executed against one of the scenarios devcontainer.json test that
-# includes the 'color' feature with "favorite": "gold" option.
-
 set -e
 
 # Optional: Import test library bundled with the devcontainer CLI
 source dev-container-features-test-lib
+
+cat > .bpmnlintrc << EOF
+{
+  "extends": "bpmnlint:recommended",
+  "rules": {
+    "label-required": "off"
+  }
+}
+EOF
+
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.

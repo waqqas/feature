@@ -1,10 +1,22 @@
 {
     "name": "bpmnlint",
     "id": "bpmnlint",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "BPMN Linter",
-    "options": {},
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Version of bpmnlint to install",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest"
+        }
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
-    ]
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    }
 }
