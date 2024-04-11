@@ -7,7 +7,7 @@ A feature to remind you of your favorite color
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/bpmnlint:1": {
+    "ghcr.io/devcontainers/feature-starter/dmnlint:1": {
         "version": "latest"
     }
 }
@@ -17,7 +17,7 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of bpmnlint to install. | string | latest |
+| favorite | Choose your favorite color. | string | red |
 
 
 

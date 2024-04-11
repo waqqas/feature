@@ -1,0 +1,22 @@
+{
+    "name": "dmnlint",
+    "id": "dmnlint",
+    "version": "0.1.0",
+    "description": "DMN Linter",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Version of dmnlint to install",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    }
+}
