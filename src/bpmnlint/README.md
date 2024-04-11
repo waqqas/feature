@@ -7,7 +7,7 @@ BPMN Linter
 
 ```json
 "features": {
-    "ghcr.io/waqqas/feature/bpmnlint:0": {}
+    "ghcr.io/waqqas/feature/bpmnlint:1": {}
 }
 ```
 

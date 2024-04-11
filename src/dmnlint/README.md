@@ -7,7 +7,7 @@ DMN Linter
 
 ```json
 "features": {
-    "ghcr.io/waqqas/feature/dmnlint:0": {}
+    "ghcr.io/waqqas/feature/dmnlint:1": {}
 }
 ```
 
