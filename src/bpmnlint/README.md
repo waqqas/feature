@@ -21,4 +21,4 @@ BPMN Linter
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/Waqqas Jabbar/github.com/waqqas/feature/blob/main/src/bpmnlint/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/waqqas/feature/blob/main/src/bpmnlint/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
