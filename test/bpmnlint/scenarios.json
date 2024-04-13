@@ -1,0 +1,17 @@
+{
+    "version_1": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:1": {
+                "installZsh": false,
+                "installOhMyZsh": false,
+                "upgradePackages": false,
+                "username": "octocat"
+            },
+            "bpmnlint": {
+                "version": "1.0.0"
+            }
+        },
+        "remoteUser": "octocat"
+    }
+}
